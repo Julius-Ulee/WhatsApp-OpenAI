@@ -255,10 +255,10 @@ async function startHisoka() {
         console.log("Connection Lost from Server, reconnecting...");
         startHisoka();
       } else if (reason === DisconnectReason.connectionReplaced) {
-        console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First");
+        console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
-        console.log(`Device Logged Out, Please Delete Session file yusril.json and Scan Again.`);
+        console.log(`Device Logged Out, Please Delete Folder Session yusril and Scan Again.`);
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
