@@ -272,7 +272,7 @@ async function startHisoka() {
       }
     } else if (connection === "open") {
       console.log(color("Bot success conneted to server", "green"));
-      console.log(color("Donate for creator https://paypal.me/ameliabot", "yellow"));
+      console.log(color("Donate for creator https://saweria.co/AmeliaBotDiscord", "yellow"));
       console.log(color("Type .menu to see menu"));
       client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot started!\n\njangan lupa support ya bang :)\n${donet}` });
     }
