@@ -1,8 +1,8 @@
 //require("http").createServer((_, res) => res.end("Berjalan coy")).listen(8080)
 
 const sessionName = 'Bot AI'
-const donet = 'https://paypal.me/ameliabot'
-const owner = ['628988999259']
+const donet = 'https://saweria.co/AmeliaBotDiscord'
+const owner = ['']
 const { default: sansekaiConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getContentType } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`);
 const pino = require("pino");
